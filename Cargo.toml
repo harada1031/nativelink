@@ -85,3 +85,6 @@ tokio-stream = ["fs"]
 tonic-build = ["prost"]
 tonic = ["transport", "tls"]
 uuid = ["v4", "serde"]
+
+[build]
+target-dir = "target"
